@@ -1,0 +1,46 @@
+input:focus {
+  outline: none;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+.highlighted-word {
+  background-color: yellow;
+}
+
+.input-wrapper {
+  max-width: 250px;
+  width: 100%;
+}
+
+.search-input {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px 10px 0px 0px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+
+.suggestions-list {
+  border: 1px solid #d9d9d9;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.suggestions-list button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 10px;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.suggestions-list button:hover {
+  opacity: 0.5;
+}
